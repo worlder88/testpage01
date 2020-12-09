@@ -1,0 +1,408 @@
+@charset "utf-8";
+#wrap {width: 100%; height: 100%; margin: 0 auto; }
+
+/*header*/
+
+#header {width: 100%; height 100px; margin: 0 auto;  }
+#header_top {width: 100%; height: 25px; text-align: center; border-bottom: 1px solid #ccc; overflow: hidden;}
+#header_top > ul {position: absolute; left: 50%; transform:translateX(-50%)}
+#header_top > ul > li {float: left; text-align: center;}
+#header_top > ul > li > a {display: inline-block; font-size: 11px;  border-left: 1px solid black; }
+#header_top > ul > li:first-child a {border-left: none; }
+#header_top > ul >li:hover > a {border-top: 3px solid #f94e3f; color: darkgrey}
+
+
+
+/*logo*/
+
+#header_mid {width: 100%; height: 70px;  margin: 0 auto; border-bottom: 1px solid #ccc; overflow: hidden;}
+#header_mid > div > img {width: 30px; height: 30px; float: left;}
+#header_mid > div h3 {font-family: 'Architects Daughter', cursive; font-size: 28px; }
+.logo{ height: 70px; width: 200px; float: left; padding-left: 15px; padding-top: 14px;}
+
+
+#header_hidden {height: 30px; width: 100%; background: #f7f7f7; display: none; border-bottom: 1px solid #ccc;}
+
+/*hamburger_menu*/
+
+#hamburger_menu {display: none; position: absolute; left: 30px; top: 76px;}
+
+#hamburger_menu > i {font-size: 25px;}
+
+
+/*header_category option*/
+
+#opt1 { float: left; padding-left: 5px; padding-top: 4px; width: 90px; margin-top: 15px; margin-right: 20px; height: 40px; border: 4px solid black; border-radius: 10px; }
+
+#slt1 { border: none; width: 70px; }
+
+
+/**header_searchbar*/
+
+#search_box {float: left;  width: 70%;  height: 80px; }
+
+#header_mid > div > form {}
+#searchbar_box { border: 3px solid black; height: 40px; width: 80%; float: left; font-size: 16px; color: #aaa; margin-top: 15px;}
+#searchbar_box > i {margin-top: 9px; margin-left: 5px; color: #000;}
+
+#search_bar1 {border: none; display: inline-block; margin-top: 3px; width: 90%; height: 30px;}
+#search_bar1:focus {outline: none;}
+
+#opt2 {width: 20%; height: 40px; display: inline-block;}
+#slt2{border: none; width: 70px;}
+
+#btn_box1 {float: left;}
+#btn1 {float: left; width: 100px; height: 40px; margin-left: 10px; background:#f94e3f; color: white; font-size: 14px; border: none; margin-top: 15px;}
+
+/*search_Bar select menu*/
+
+
+/*Main menu*/
+
+#header_btm { height: 30px; width: 100%; margin: 0 auto; position: relative; clear: both; border-bottom: 1px solid #ccc; line-height: 30px; }
+#header_btm > div > ul {width: 50%; margin: 0 auto; }
+#header_btm > div > ul > li {float: left; width: 98px;  text-align: center; display: inline-block; font-size: 13px; }
+#header_btm > div > ul > li:hover { border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
+#header_btm > div > ul > li:hover > a {color: #aaa; }
+
+#header_btm > div > ul > li > ul {  width: 100%; height: 300px; background: #fff; position:absolute; left: 0; top: 30px; z-index: 10;}
+#header_btm > div > ul > li:hover ul { border: 1px solid #ccc; border-top: none;}
+
+#header_btm > div > ul > li > ul.gt_menu > li > a:hover {color: crimson;}
+#header_btm > div > ul > li > ul.bs_menu > li > a:hover {color: crimson;}
+#header_btm > div > ul > li > ul.kb_menu > li > a:hover {color: crimson;}
+#header_btm > div > ul > li > ul.dr_menu > li > a:hover {color: crimson;}
+#header_btm > div > ul > li > ul.amp_menu > li > a:hover {color: crimson;}
+#header_btm > div > ul > li > ul.art_menu > li > a:hover {color: crimson;}
+
+
+/*guitar menu*/
+
+#header_btm > div > ul > li > ul.gt_menu > li {width: 33.33%; float: left; height: 100%}
+#header_btm > div > ul > li > ul.gt_menu > li > p {font-weight: bold; margin-top: 20px; margin-bottom: 20px; font-size: 15px;}
+#header_btm > div > ul > li > ul.gt_menu > li > a {display: inline-block; float: left; width: 100%; height: 28px; font-size: 14.6px; color: dimgrey}
+
+
+/*bass menu*/
+
+#header_btm > div > ul > li > ul.bs_menu > li {width: 33.33%; float: left; height: 100%}
+#header_btm > div > ul > li > ul.bs_menu > li > p {font-weight: bold; margin-top: 20px; margin-bottom: 20px; font-size: 15px;}
+#header_btm > div > ul > li > ul.bs_menu > li > a {display: inline-block; float: left; width: 100%; height: 28px; font-size: 14.6px; color: dimgrey}
+
+
+/*keyboard menu*/
+
+#header_btm > div > ul > li > ul.kb_menu > li {width: 25%; float: left; height: 100%}
+#header_btm > div > ul > li > ul.kb_menu > li > p {font-weight: bold; margin-top: 20px; margin-bottom: 20px; font-size: 15px;}
+#header_btm > div > ul > li > ul.kb_menu > li > a {display: inline-block; float: left; width: 100%; height: 28px; font-size: 14.6px; color: dimgrey}
+
+/*Drum menu*/
+
+#header_btm > div > ul > li > ul.dr_menu > li {width: 50%; float: left; height: 100%}
+#header_btm > div > ul > li > ul.dr_menu > li > p {font-weight: bold; margin-top: 20px; margin-bottom: 20px; font-size: 15px;}
+#header_btm > div > ul > li > ul.dr_menu > li > a {display: inline-block; float: left; width: 100%; height: 28px; font-size: 14.6px; color: dimgrey}
+
+/*keyboard menu*/
+
+#header_btm > div > ul > li > ul.amp_menu > li {width: 25%; float: left; height: 100%}
+#header_btm > div > ul > li > ul.amp_menu > li > p {font-weight: bold; margin-top: 20px; margin-bottom: 20px; font-size: 15px;}
+#header_btm > div > ul > li > ul.amp_menu > li > a {display: inline-block; float: left; width: 100%; height: 28px; font-size: 14.6px; color: dimgrey}
+
+
+/*Artist menu*/
+
+#header_btm > div > ul > li > ul.art_menu > li {width: 50%; float: left; height: 100%}
+#header_btm > div > ul > li > ul.art_menu > li > p {font-weight: bold; margin-top: 20px; margin-bottom: 20px; font-size: 15px;}
+#header_btm > div > ul > li > ul.art_menu > li > a {display: inline-block; float: left; width: 100%; height: 28px; font-size: 14.6px; color: dimgrey}
+
+/*ul.sub {display: none;}*/
+
+/*mobile button menu*/
+
+#m_btn_menu { position: absolute; left: -30%; width: 300px; height: 100%; float: left; background: #f9f9f9; z-index: 100; display: none;}
+
+#m_btn_menu > div > ul > li > ul {display: none;}
+#m_btn_menu > div > ul > li > ul > li {margin-bottom: 20px;}
+
+ #m_btn_menu > div > ul > li { font-weight: bold; _height: 40px; line-height: 40px; border-bottom: 1px solid grey; text-indent: 10px;}
+
+#m_btn_menu > div > ul > li > ul > li > p {font-size: 14px; height: 30px; line-height: 30px; font-weight: bold; text-indent: 13px;}
+#m_btn_menu > div > ul > li > ul > li > a {font-size: 13px; display: block; color: grey; height: 20px; text-indent: 15px;} 
+
+
+
+
+
+
+/*slide*/
+
+
+#slide { float: left; width: 100%; height: 500px; background: #eee; clear: both; overflow: hidden; margin-bottom: 10px;}
+
+#view1 { position: relative; width: 1400px; height: 500px; background: #aaa;  overflow: hidden; margin: 0 auto;  }
+
+#slide_image { position: relative; width: 100%; height: 500px; }
+
+#slide_image img.slide_img1 {  position: absolute; left: 0%; }
+#slide_image img.slide_img2 {  position: absolute; left: 100%; }
+#slide_image img.slide_img3 {  position: absolute; left: 200%; }
+#slide_image img.slide_img4 {  position: absolute; left: 300%; }
+
+
+
+/*slide_buttons*/
+
+#btn_box {position: relative; left: 100%; transform: translateX(-52%); height: 20px; margin: 0 auto ;  clear: both; overflow: hidden;}
+
+#slide_prev {width: 1%;  float: left; color:grey; cursor: pointer;}
+
+#slide_btn {width: 100%;}
+#slide_btn > button { height: 20px; float: left; width: 8px; height: 8px; border: none; border-radius: 25px;  color: gray; background: grey; margin-left: 7px; margin-right: 7px; margin-top: 7px; cursor: pointer}
+
+#slide_next {width: 1%; float: left; color: grey; cursor: pointer;}
+
+
+
+/*Contents*/
+
+#container { margin-top: 150px; margin-left: 30px;}
+
+
+/*hot items*/
+
+#hot_items {width: 1400px; height: 400px; overflow: hidden; margin: 0 auto; position: relative;}
+#hot_items > h3 { font-size: 25px; margin-bottom: 30px; margin-left: 40px;}
+
+
+
+#hot_items > div.hot_inner > div.circle_box > a > img {position: absolute; left: 30px; display:  block; width: 90%; vertical-align: middle; }
+
+div.hot_inner { position: relative; width: 25%; height: 350px; float: left; overflow: hidden;}
+
+#hot_items > div > div.circle_box {position: absolute; top: 10px; left: 50%; transform: translateX(-50%); width: 250px; height: 250px;  float: left; border-radius: 150px; overflow: hidden; }
+
+#hot_items > div > div.circle_box {background-color: #f4f4f4;}
+
+#hot_items > div > p {position: absolute; left:50%; display: inline-block; font-size: 15px; font-weight: 600; transform: translateX(-45%); top: 80%; width: 170px; text-align: justify; }
+#hot_items > div > p > a {}
+
+#hot_items > div > p > span.now_price {  display:block; font-size: 15px;}
+#hot_items > div > p> span.origin_price { display: inline-block; font-size: 11px;}
+#hot_items > div > p> span.discount { display: inline-block; font-size: 11px; color: red; font-weight: 600; text-decoration: line-through}
+
+
+#hot_prev_btn {position: absolute; z-index: 5; top: 50%; transform: translateY(-50%); left: 0%; }
+#hot_prev_btn > i {font-size: 30px;}
+#hot_next_btn {position: absolute; z-index: 5; top: 50%; transform: translateY(-50%); right: 0.5%;}
+#hot_next_btn > i {font-size: 30px;}
+
+/*advertisement*/
+
+#ads_outer {position: relative; clear: both;  margin: 0 auto; width: 1300px; height: 400px;  margin-bottom: 120px; margin-top: 150px; }
+
+#ads_inner {position: relative; width: 100%; height: 400px;}
+#ads_inner > li {position: absolute; width: 100%; height: 400px;}
+
+
+#ads_inner > li.ads01 {background: url(../images008/ads1.jpg) 50% 0 no-repeat; }
+#ads_inner > li.ads01 {background: url(../images008/ads2.jpg) 50% 0 no-repeat; }
+#ads_inner > li.ads01 {background: url(../images008/ads3.jpg) 50% 0 no-repeat; }
+
+
+/*brands*/
+
+#brands {width: 1300px; margin: 0 auto; overflow: hidden; margin-bottom: 200px;}
+#brands > h3 { font-size: 25px; margin-top: 30px; margin-left: 40px; margin-bottom: 30px;}
+
+#brands >div.brands_inner { position: relative; width: 20%; height: 280px; float: left; k}
+
+.brands_inner > .brands_img {position: absolute; top: 10px; left: 50%; transform: translateX(-50%); width: 200px; height: 200px; border: 1px solid black; float: left;overflow: hidden;}
+
+.brands_inner > p {position: absolute; left:50%; display: inline-block; font-size: 15px; font-weight: 600; transform: translateX(-50%); top: 80%; width: 170px; text-align: center;}
+
+
+/*footer*/
+
+#footer { clear: both; height: 600px; background: #393A3F; position: relative;}
+
+#footer_top {width: 100%; height: 50px;}
+#footer_logo {float: left; width: 20%; height: 82%;  position: relative;}
+#footer_logo > img {width: 30px; position: absolute; left: 20px;; top: 20px;}
+#footer_logo > h3 {font-family: 'Architects Daughter', cursive; color: white; font-size: 28px; position: absolute; top: 20px;; left: 50px; }
+
+
+#footer_menu {float: left; width: 80%; height: 82%;}
+#footer_menu > ul > li { float: left; width: 20%; height: }
+#footer_menu > ul > li > div {height: 50px; width: 90%; border-bottom: 3px solid white; margin-bottom: 20px; } 
+#footer_menu > ul > li > h3 {color: white; font-size: 20px; margin-bottom: 20px}
+#footer_menu > ul > li > p {margin-bottom: 10px; }
+#footer_menu > ul > li > p > a {color: lightgrey; font-size: 15px; }
+
+#footer_address {float: left; width: 100%; height: 8%; border-top: 2px solid white;}
+#footer_address> p {text-align: center; line-height: 50px; font-size: 14px; color: lightgray}
+
+/*sns*/
+
+#sns {position: absolute; top: 80%; right: 5%}
+#sns > ul >li {float: left; margin-right: 30px;}
+#sns > ul > li > a > i {color: lightgray; font-size: 23px;}
+
+
+/* 모바일*/
+
+@media screen and (max-width:766px) {
+    
+/*    header*/
+    
+    
+    #header_hidden {display: block;}
+    
+    
+    /*    logo*/
+    
+    div.logo {float: none; margin: 0 auto;}
+    
+    
+/*    hamburger_menu*/
+    
+    #hamburger_menu {display: block; }
+    
+/*    head bottom*/
+    
+    #header_btm {display: none; }
+    
+/*    option*/
+    
+    #opt1 {display: none;}
+    
+    
+    
+/*    searchbox*/
+    
+    
+    #search_box {display: none;}
+    
+    
+/*    mobilemenu*/
+    
+    
+    #m_btn_menu { position: absolute; z-index: 100;}
+    
+    
+/*    slide*/
+    
+    #slide {float: left;  position: relative; overflow: hidden; clear: both; width: 100%;}
+    #view1 {width: 100%; height: 500px; background: #aaa;  overflow: hidden; margin: 0 auto;  }
+    #slide_image {width: 100%; height: 500px; }
+    
+    #slide_image img {width: 25%; vertical-align: middle;}
+    
+    #btn_box { overflow: hidden; clear: both;}
+
+/*hot items*/
+    
+    #hot_items { width: 100%; height: 760px;}
+    div.hot_inner { width: 50%;}
+    #hot_items > div > div.circle_box {width: 200px; height: 200px;  border-radius: 150px; }
+    #hot_items > div > p {top: 65%}
+    
+    
+/*    ads*/
+    
+    #ads_outer {clear: both;  margin: 0 auto; width: 95%; height: 300px; background: #555; margin-bottom: 100px; margin-top: 50px; }
+    
+    
+/*    brand*/
+    
+    #brands {display: none;}
+}
+
+    
+    
+
+
+
+/* 모바일 이외*/
+
+
+@media all and (min-width:767px) and (max-width:1200px) {
+    
+    /*    header*/
+    
+    
+    #header_hidden {display: block;}
+    
+    
+/*    logo*/
+    
+    div.logo {float: none; margin: 0 auto;}
+    
+    
+/*    hamburger_menu*/
+    
+    #hamburger_menu {display: block; cursor: pointer;}
+    
+/*    head bottom*/
+    
+    #header_btm {display: none; }
+    
+/*    option*/
+    
+    #opt1 {display: none;}
+    
+    
+    
+/*    searchbox*/
+    
+    
+    #search_box {display: none;}
+    
+    
+/*    mobilemenu*/
+    
+    
+    #m_btn_menu { display: block; position: absolute; left: -300px; z-index: 100;}
+    #m_btn_menu > div > ul > li.close_block { position: relative; height:30px; width: 100%; border-bottom: 1px solid grey; background: crimson;}
+    #m_menu_close{ position: absolute; width: 10px; top: -20%; left: 90%; cursor: pointer;}
+    #m_menu_close > span {font-size: 20px; color: white;}
+    
+    
+/*    slide*/
+    
+    #slide {float: left;  position: relative; overflow: hidden; clear: both; width: 100%;}
+    #view1 {width: 100%; height: 500px; background: #aaa;  overflow: hidden; margin: 0 auto;  }
+    #slide_image {width: 400%; height: 500px; }
+    
+    #slide_image img {width: 25%; height: 100%; vertical-align: middle;}
+    
+    #btn_box { overflow: hidden; clear: both;}
+    
+    
+    .js-imgSizeSame-wrap {
+        overflow: hidden; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center; 
+        width: 25%; 
+        height: 100%; 
+    } 
+    .js-imgSizeSame-wrap>img { visibility: hidden; }
+
+/*hot items*/
+    
+    #hot_items { width: 100%;}
+    div.hot_inner { width: 33%;}
+    #hot_items > div > div.circle_box {width: 220px; height: 220px; border-radius: 150px; }
+    
+    
+/*    ads*/
+    
+    #ads_outer {clear: both;  margin: 0 auto; width: 95%; height: 400px; background: #555; margin-bottom: 120px; margin-top: 150px; }
+    
+    
+/*    brand*/
+    
+    #brands {display: none;}
+}
+
+
